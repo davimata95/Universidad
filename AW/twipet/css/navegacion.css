@@ -1,0 +1,171 @@
+﻿.boton, .botonCabecera, #botonInicio, .botonAdoptar, .botonLogOut{
+
+	/*Quita el subrayado de los enlaces*/
+	text-decoration:none;
+	
+	font-size:20px;
+	color:#FFFFFF;
+	background:#22C5B1;
+	padding:15px;
+	margin:10px;
+	margin-bottom:30px;
+	
+	/*Botones redondeados*/
+	border-radius: 2em;
+	
+	/*Efecto de transición en los botones*/
+	transition: all 0.3s;
+	
+}
+
+#restringido{
+	padding:20px 10px 20px 10px;
+	background:#F0F8FF;
+	float:left;
+	border: 2px solid #22C5B1;	
+	margin: 50px 50px 50px 35%;
+	border-radius:2em;
+}
+
+
+#boton-enviar{
+	
+	height: 20px;
+	width: 100px;
+	background-color: white;
+	border: 1px solid #22C5B1;
+
+	margin-top: 5px;
+	margin-left: 20px;
+
+	text-align: center;
+	border-radius:1em;
+}
+
+#boton-enviar:hover{
+	
+	cursor: pointer;
+	color: white;
+	background-color: #22C5B1;
+}
+
+.botonCabecera{
+	
+	font-family: kristen ITC;
+}
+
+.selection{
+	background: #FFFFFF;
+	color:#22C5B1;
+}
+
+/*Cambia de color y fondo al pasar el cursor por encima*/
+.botonCabecera:hover{
+	background: #FFFFFF;
+	color:#22C5B1;
+}
+
+#registrado{
+	float:right;
+	color:#FFFFFF;
+	margin-right:10px;
+	font-family: kristen ITC;
+}
+
+body{
+	font-family:arial;
+	background: #F8F8F8;
+	margin:0px;
+	padding:0px;
+	
+	/*Determina la anchura minima que tendra la página*/
+	min-width:830px;
+}
+
+#contenedor{
+
+	
+
+}
+
+#cabecera{
+	
+}
+
+/*Lista de con los elementos de la barra superior */
+#lista{
+
+	width:98.7%;
+	padding:10px;
+	margin:0px;
+
+	float:left;
+	background: #22C5B1;	
+}
+
+#lista li{
+	
+	display:inline;
+	float:left;
+	margin: 15px;
+}
+
+/*Pie de página*/
+#pie{
+	clear:both;
+	background-color: #22C5B1;
+	color: #FFFFFF;
+	min-height: 50px;
+	padding: 10px;
+}
+
+#copyright {
+	display: inline-block;
+	float: left;
+}
+
+#redesSociales {
+	display: inline-block;
+	float: right;
+}
+
+#redesSociales li {
+	display: inline-block;
+}
+
+#menuSocial {
+	
+	float:left;
+	margin-left: 120px;
+	background: #22C5B1;
+	margin-top: -20px;
+	padding-right: 40px;
+	list-style:none;
+	border-radius:2em;
+}
+
+#menuSocial li {
+
+	margin-left:20px;
+	line-height: 50px;
+	float:left;
+}
+
+#menuSocial a {
+	
+	font-family: kristen ITC;
+	color: #F0F8FF;
+	text-decoration: none;
+	border-radius: 2em;
+	padding:5px;
+}
+		
+#menuSocial a:hover{
+	background: #F0F8FF;
+	color:#22C5B1;
+}
+
+selection{
+	background: #22C5B1;
+	color:#F0F8FF;
+}

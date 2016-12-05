@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bd-abedemon xmlns="http://www.ucm.es/Abedemon"
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xsi:schemaLocation="http://www.ucm.es/Abedemon Abedemon.xsd">
+
+    <!-- Lista de abedemons -->
+
+    <especie id="a0001">
+        <nombre>Laverne</nombre>
+        <url>http://dalila.sip.ucm.es/~manuel/ABD/Laverne.png</url>
+        <descripcion>Su expresiva mirada pide mimitos, pero sus afilados dientes piden sangre</descripcion>
+        <tipo>Roedor</tipo>
+        <tipo>Fuego</tipo>
+        <tipo>Peludo</tipo>
+        <ataques>
+            <tiene-ataque id="p01"/>
+        </ataques>
+        <evoluciones>
+            <especie id="a0002">
+                <nombre>Ovillardo</nombre>
+                <url>http://dalila.sip.ucm.es/~manuel/ABD/Ovillardo.png</url>
+                <descripcion>Laverne evoluciona en este jugetón felino, cuyo pelo sirve para atraer electricicidad estática.</descripcion>
+                <tipo>Felino</tipo>
+                <tipo>Peludo</tipo>
+                <tipo>Electricidad</tipo>
+                <ataques>
+                    <tiene-ataque id="p01"/>
+                    <tiene-ataque id="p02"/>
+                </ataques>
+                <evoluciones>
+                    <especie id="a0003">
+                        <nombre>Arrumaco</nombre>
+                        <url>http://dalila.sip.ucm.es/~manuel/ABD/Arrumaco.png</url>
+                        <descripcion>Proveniente de Ovillardo, aparentemente es un dulce perrito inofensivo. Pero en su interior guarda... un dulce perrito inofensivo.</descripcion>
+                        <tipo>Canino</tipo>
+                        <tipo>Babas</tipo>
+                        <tipo>Peludo</tipo>
+                    </especie>
+                </evoluciones>
+            </especie>
+            <especie id="a0004">
+                <nombre>Tortuosa</nombre>
+                <url>http://dalila.sip.ucm.es/~manuel/ABD/Tortuosa.png</url>
+                <descripcion>Evolución de Laverne. Su hipnótico y lento movimiento provoca aburrimiento durante tres interminables turnos</descripcion>
+                <tipo>Naturaleza</tipo>
+                <tipo>Agua</tipo>
+                <ataques>
+                    <tiene-ataque id="p01"/>
+                    <tiene-ataque id="p03"/>
+                </ataques>
+            </especie>
+        </evoluciones>
+    </especie>
+    <especie id="a0005">
+        <nombre>Peripollo</nombre>
+        <url>http://dalila.sip.ucm.es/~manuel/ABD/Peripollo.png</url>
+        <descripcion>Poderoso enemigo, aunque altamente inflamable. Se siente atraído por las velas encendidas.</descripcion>
+        <tipo>Volador</tipo>
+        <tipo>Aire</tipo>
+        <tipo>Dinamita</tipo>
+        <ataques>
+            <tiene-ataque id="p04"/>
+        </ataques>
+    </especie>
+    
+    <!-- Lista de ataques -->
+    
+    <ataque id="p01">
+        <nombre>Deflagración</nombre>
+        <daño tipo="Dinamita" valor="100"/>
+        <daño tipo="Electricidad" valor="20"/>
+    </ataque>
+    <ataque id="p02">
+        <nombre>Tormenta eléctrica</nombre>
+        <daño tipo="Volador" valor="40"/>
+        <daño tipo="Peludo" valor="30"/>
+    </ataque>
+    <ataque id="p03">
+        <nombre>Rafaga</nombre>
+        <daño tipo="Felino" valor="50"/>
+        <daño tipo="Fuego" valor="80"/>
+        <daño tipo="Peludo" valor="30"/>
+    </ataque>
+    <ataque id="p04">
+        <nombre>Picotazo</nombre>
+        <daño tipo="Naturaleza" valor="10"/>
+        <daño tipo="Electricidad" valor="90"/>
+    </ataque>
+</bd-abedemon>

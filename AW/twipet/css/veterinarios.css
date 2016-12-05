@@ -1,0 +1,186 @@
+h3 {
+	text-align:center;
+	font-size: 17px;
+}
+
+#contenido{
+
+	clear:both;
+
+	margin: 7%;
+}
+
+#listaVeterinarios {
+	padding: 10px;
+	background-color: #F0F8FF;
+	float: left;
+	margin:30px;
+	border: 1px solid #22C5B1;
+	border-radius:1em;
+}
+
+.col {
+	
+	background:#FFFFFF;
+	text-align:center;
+	padding: 20px;
+	display: inline-block;
+	margin:25px 8px 15px 8px;
+	border: 5px double #22C5B1;
+	border-radius: 10px 10px 10px 10px;
+	line-height: 1.5em;
+}
+
+#listaVeterinarios a{
+	text-decoration:none;
+	color:#000000;
+	padding:1px 6px 1px 6px;
+	font-size:15px;
+}
+
+#listaVeterinarios ul{
+	
+	list-style:none;
+	padding-left:0;
+	text-align:left;
+	width:auto;
+}
+#listaVeterinarios li{
+	margin-top:5px;
+}
+
+#boton-vet{
+	
+	background-color: white;
+	border: 1px solid #22C5B1;
+
+	margin-top: 5px;
+	margin-left: 20px;
+
+	text-align: center;
+	border-radius:1em;
+}
+
+#boton-vet:hover{
+	
+	cursor: pointer;
+	color: white;
+	background-color: #22C5B1;
+}
+
+#map {
+     width: 700px;
+     height: 550px;
+	 margin:30px;
+	 float:left;
+	 border: 2px solid #000000;
+}
+
+/*perfil Veterinario */
+
+selection{
+	background: #22C5B1;
+	color:#F0F8FF;
+}
+
+#nombreVeterinario{
+	
+	margin-left:20px;
+	margin-top:10%;
+	text-align:center;
+	border-radius: 0.5em;
+	font-size:1.5em;
+	width:210px;
+	border: 1px solid #22C5B1;
+}
+
+#nombrevet{
+	margin-left:129%;
+	margin-top:10px;
+	text-align:center;
+	border-radius: 0.5em;
+	font-size:1.5em;
+	width:210px;
+}
+
+.textoApartado{
+	
+	float:left;
+	padding:5px;
+	width:100%;
+	text-align:left;
+	
+}
+
+.imgRedondaPerfil {
+   width:90%;
+   height:90%;
+   margin-left:50%;
+   border-radius:160px;
+}
+
+#contenedorInfo{
+
+	padding:20px 0px 20px 0px;
+	background:#F0F8FF;
+	float:left;
+	border: 2px solid #22C5B1;	
+	margin-top:5%;
+	margin-left:15%;
+	margin-right:20%;
+	width:80%;
+	margin-bottom:10%;
+	border-radius:2em;
+
+}
+
+#perfil{
+	
+	border-radius: 2em;
+	clear:both;
+	float:left;
+	margin: 5px;
+	width:50%;
+	
+	padding:20px 0px 20px 0px;
+}
+
+#infoperfil {
+
+	clear:both;
+	float: left;
+	padding: 10px;
+	background-color: #F1F1F1;
+	width: 35%;
+
+	border: 1px solid #22C5B1;
+	border-radius: 2em;
+	margin:5% 0 5% 30%;
+	text-align: center;
+}
+
+#map {
+
+	float: left;
+	padding: 10px;
+	background-color: #F1F1F1;
+	width: 500px;
+	height: 500px;
+	margin:1% 0 5% 5%;
+	border: 1px solid #22C5B1;
+	border-radius: 2em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.ucm.es/Abedemon" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ucm.es/Abedemon">
+
+    <xsd:element name="bd-abedemon">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element name="especie" type="especieType"
+    				maxOccurs="unbounded" minOccurs="1">
+    			</xsd:element>
+    			<xsd:element name="ataque" maxOccurs="unbounded" minOccurs="1">
+    				<xsd:complexType>
+    					<xsd:sequence>
+    						<xsd:element name="nombre" type="xsd:string"
+    							maxOccurs="1" minOccurs="1">
+    						</xsd:element>
+    						<xsd:element name="daño"
+    							maxOccurs="unbounded" minOccurs="1">
+    							<xsd:complexType>
+    								<xsd:attribute name="tipo"
+    									type="xsd:string">
+    								</xsd:attribute>
+    								<xsd:attribute name="valor"
+    									type="xsd:string">
+    								</xsd:attribute>
+    							</xsd:complexType>
+    						</xsd:element>
+
+    					</xsd:sequence>
+    					<xsd:attribute name="id"
+    						type="xsd:string">
+    					</xsd:attribute>
+    				</xsd:complexType>
+    			</xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+
+    <xsd:complexType name="especieType">
+    	<xsd:sequence>
+    		<xsd:element name="nombre" type="xsd:string" maxOccurs="1"
+    			minOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="url" type="xsd:string" maxOccurs="1"
+    			minOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="descripcion" type="xsd:string"
+    			maxOccurs="1" minOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="tipo" type="xsd:string"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="ataques" maxOccurs="unbounded"
+    			minOccurs="0">
+    			<xsd:complexType>
+    				<xsd:sequence>
+    					<xsd:element name="tiene-ataque"
+    						maxOccurs="unbounded" minOccurs="1">
+    						<xsd:complexType>
+    							<xsd:attribute name="id"
+    								type="xsd:string">
+    							</xsd:attribute>
+    						</xsd:complexType>
+    					</xsd:element>
+    				</xsd:sequence>
+    			</xsd:complexType>
+    		</xsd:element>
+    		<xsd:element name="evoluciones" maxOccurs="unbounded"
+    			minOccurs="0">
+    			<xsd:complexType>
+    				<xsd:sequence>
+    					<xsd:element name="especie"
+    						type="especieType" maxOccurs="unbounded" minOccurs="1">
+    					</xsd:element>
+    				</xsd:sequence>
+    			</xsd:complexType>
+    		</xsd:element>
+    	</xsd:sequence>
+    	<xsd:attribute name="id" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+
+
+</xsd:schema>

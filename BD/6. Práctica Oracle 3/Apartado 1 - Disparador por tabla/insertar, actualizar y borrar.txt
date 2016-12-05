@@ -1,0 +1,12 @@
+--Para insertar
+INSERT INTO pedidos(código, fecha, importe, cliente, notas)
+  VALUES ('1', '1', 4, 'Pepe', 'Ninguna');
+
+--Para actualizar
+UPDATE pedidos
+SET importe = 8
+WHERE código = '1';
+
+--Para borrar
+DELETE FROM pedidos
+WHERE código = '1';

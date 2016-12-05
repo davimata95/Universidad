@@ -1,0 +1,17 @@
+CREATE OR REPLACE TRIGGER trigger_contiene
+  AFTER INSERT OR DELETE OR UPDATE ON contiene FOR EACH ROW
+BEGIN
+  IF INSERTING THEN
+    UPDATE pedidos
+    SET pedidos.importe = pedidos.importe + (:NEW.precio * :NEW.unidades)
+    WHERE pedidos.código = :NEW.pedido;
+  ELSIF UPDATING THEN
+    UPDATE pedidos
+    SET pedidos.importe = pedidos.importe - (:OLD.precio * :OLD.unidades) + (:NEW.precio * :NEW.unidades)
+    WHERE pedidos.código = :NEW.pedido;
+  ELSIF DELETING THEN
+    UPDATE pedidos
+    SET pedidos.importe = pedidos.importe - (:OLD.precio * :OLD.unidades)
+    WHERE pedidos.código = :NEW.pedido;
+  END IF;
+END;

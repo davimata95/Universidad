@@ -1,0 +1,37 @@
+-- Apartado a)
+
+CREATE INDEX index_pedidos on pedidos(cliente);
+
+
+-- Apartado b)
+
+--ALTER DATABASE DATAFILE 'D:\ORACLE\GII_EMPRESA_MATANOTARIO' AUTOEXTEND ON  MAXSIZE 100M
+CREATE OR REPLACE PROCEDURE rellenaPedidos IS
+  ini number := 0;
+  fin integer := 500000;
+  v_cliente pedidos.cliente%TYPE;
+  
+BEGIN
+  FOR I IN ini..fin LOOP
+    v_cliente := 'C' || I;
+    INSERT INTO pedidos VALUES (I, '06/01/2015', 10.0, v_cliente, ' ');
+  END LOOP;
+END;
+
+
+-- Apartado c)
+
+SET timing ON;
+SELECT * FROM pedidos WHERE pedidos.cliente = 'C500000';
+DROP index_pedidos;
+SELECT * FROM PEDIDOS WHERE pedidos.cliente = 'C500000';
+
+
+-- Apartado d)
+
+CREATE VIEW vistaD AS SELECT * FROM pedidos;
+CREATE INDEX vistaIndice on vista1(vistaD.cliente);
+
+--GRANT CREATE MATERIALIZED VIEW TO USU_GII_MATANOTARIO;
+CREATE MATERIALIZED VIEW vistaMaterializada AS SELECT * FROM pedidos;
+CREATE INDEX vistaMaterializadaIndice on vistaMaterializada(vistaMaterializada.cliente);

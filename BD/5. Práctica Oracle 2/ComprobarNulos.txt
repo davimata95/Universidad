@@ -1,0 +1,31 @@
+SET SERVEROUTPUT ON SIZE 100000;
+
+CREATE OR REPLACE PROCEDURE ComprobarNulos IS
+
+--DECLARE
+  v_CodigoPostal "Códigos postales I"."Código postal"%TYPE;
+  v_Poblacion "Códigos postales I".Población%TYPE;
+  v_Provincia "Códigos postales I".Provincia%TYPE;
+  CURSOR c_CodigosPostalesI IS
+    SELECT "Código postal", Población, Provincia
+      FROM "Códigos postales I";
+  excepcion_nulo EXCEPTION;
+  
+
+BEGIN
+  OPEN c_CodigosPostalesI;
+  LOOP
+    FETCH c_CodigosPostalesI INTO v_CodigoPostal, v_Poblacion, v_Provincia;
+    IF v_CodigoPostal IS NULL OR v_Poblacion IS NULL OR v_Provincia IS NULL THEN
+     RAISE excepcion_nulo;
+    END IF;
+    EXIT WHEN c_CodigosPostalesI%NOTFOUND;
+  END LOOP;
+  CLOSE c_CodigosPostalesI;
+--END;
+
+EXCEPTION
+  WHEN excepcion_nulo THEN
+    DBMS_OUTPUT.PUT_LINE ('Código postal nulo.');
+  
+END;

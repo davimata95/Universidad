@@ -1,0 +1,18 @@
+xquery version "3.0";
+
+declare variable $yoId as xs:string external;
+declare variable $adversarioId as xs:string external;
+
+(: Me quedo mis ataques :)
+let $yo := doc("Abedemon.xml")//especie[@id = $yoId]
+let $yoAtaques := $yo/ataques/tiene-ataque/@id
+
+(: Me quedo con ataques del adversario :)
+let $adversario := doc("Abedemon.xml")//especie[@id = $adversarioId]
+let $adversarioTipo := $adversario/tipo
+
+(: Me quedo con el máximo daño hacia mi adversario :)
+let $ataques := doc("Abedemon.xml")/bd-abedemon/ataque[@id = $yoAtaques and daño/@tipo = $adversarioTipo]
+let $maxValor := $ataques/daño[@tipo = $adversarioTipo]/@valor
+
+return max($maxValor)

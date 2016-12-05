@@ -1,0 +1,18 @@
+SET SERVEROUTPUT ON SIZE 100000;
+
+CREATE OR REPLACE PROCEDURE ComprobarFK IS
+
+--DECLARE
+  CURSOR c_CodigosPostalesI IS
+    SELECT CP."Código postal", CP.Población, CP.Provincia
+      FROM "Códigos postales I" CP LEFT JOIN "Domicilios I" D
+		ON CP."Código postal" = D."Código postal"
+			WHERE D."Código postal" IS NULL;
+
+BEGIN
+  FOR r_CP IN c_CodigosPostalesI LOOP
+    DBMS_OUTPUT.PUT_LINE('Violación de integridad referencial en la tabla "Domicilios I"');
+    DBMS_OUTPUT.PUT_LINE(r_CP."Código postal" || ', ' || r_CP.Provincia || ', ' || r_CP.Población);
+  END LOOP;
+  
+END;

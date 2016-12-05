@@ -1,0 +1,43 @@
+--1. Bloqueos (Select)
+--1.
+CREATE TABLE cuentas (
+numero number primary key,
+ saldo number not null
+ );
+
+INSERT INTO cuentas VALUES (123, 400);
+INSERT INTO cuentas VALUES (456, 300);
+COMMIT;
+--Salida de Script:
+/*
+table CUENTAS creado.
+1 filas insertadas.
+1 filas insertadas.
+confirmado.
+*/
+
+--2.
+sqlplus USU_GII_MATANOTARIO/dr1234567890@BDc
+
+--3.
+SET AUTOCOMMIT OFF
+
+--4.
+UPDATE cuentas
+SET saldo = saldo + 100
+WHERE numero = 123;
+
+--5.
+SELECT saldo
+FROM cuentas
+WHERE numero = 123;
+--Su saldo es 500.
+
+--6.
+COMMIT;
+
+--7.
+SELECT saldo
+FROM cuentas
+WHERE numero = 123;
+--Su saldo es 500.

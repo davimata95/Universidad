@@ -1,0 +1,155 @@
+.contenido{
+	
+	float:left;
+	text-align:center;
+	margin: 0.2% -50px 40px 70px;
+}
+
+
+/* Foto Perfil e info */
+#foto-info{
+	width: 250px;
+	height: 250px;
+	background-color: ;
+
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+
+	text-align: center;
+
+}
+
+#foto-info img{
+	margin-top: 5px;
+	border: 3px solid #22C5B1;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	box-shadow: 2px 2px 5px #999;
+}
+
+#foto-info p{
+	padding-top: 3px;
+	margin-top: 3px;
+	background-color: white;
+	border: 3px solid #22C5B1;
+
+}
+
+
+/* Mensajeria */
+
+
+#campo-mensajes{
+	
+	margin: 30px 30px 0 15px;
+	float:left;
+	height: 500px;
+	width: 590px;
+	
+}
+
+#texto-enviado{
+	height: 360px;
+	width: 560px;
+	background-color: #FFFFFF;
+	float:left;
+	margin: 20px ;
+	margin-top:0px;
+	padding:20px;
+	border: 2px solid #22C5B1;
+	border-radius: 1em;
+	list-style:none;
+	overflow: scroll;
+	
+}
+
+.avatar img{
+	width:50px;
+	margin:4px;
+	border: 1px solid #22C5B1;
+	border-radius:1em;
+}
+
+.texto{
+	float: left;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:left;
+}
+
+.mensajeEntrante, .mensajeSaliente{
+	border: 1px solid #22C5B1;
+	border-radius:1em;
+	clear:both;
+	margin-bottom:5px;
+}
+
+.mensajeSaliente{
+	float:left;
+}
+
+.mensajeSaliente .avatar{
+	float:left;
+}
+
+.mensajeEntrante{
+	float:right;
+}
+
+.mensajeEntrante .avatar{
+	float:right;
+}
+
+textarea{
+	
+	margin-left:20px;
+	border: 2px solid #22C5B1;
+	border-radius:1em;
+}
+
+
+#lista-nombres{
+	
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+	border: 2px solid #22C5B1;
+	border-radius:1em;
+}
+
+#buscar {
+	
+	margin-top:20px;
+	color:#22C5B1;
+	border: 1px solid #22C5B1;
+	border-radius: 1em;
+}
+
+#chats{
+	
+	margin-bottom:0px;
+	padding:0px;
+	list-style:none;
+}
+
+#lista-nombres li{
+	
+	
+	height: 50px;
+	width: 200px;
+	padding-top:30px;
+	border-top: 2px solid #22C5B1;
+
+}
+
+#lista-nombres li:hover{
+	color: white;
+	background-color: #22C5B1;
+}
+
+a{
+	text-decoration:none;
+	color: #000000;
+}

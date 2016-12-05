@@ -1,0 +1,37 @@
+COMMIT; --en T1
+COMMIT; --en T2
+
+--1.
+ALTER SESSION SET ISOLATION_LEVEL = SERIALIZABLE;
+
+--2.
+SELECT SUM(saldo) FROM cuentas;
+--SUM(saldo) = 1800.
+
+--3.
+UPDATE cuentas SET saldo = saldo + 100;
+COMMIT;
+
+--4
+SELECT SUM(saldo) FROM cuentas;
+/*Lo que ocurre es que con el modo SERIALIZABLE,
+sólo los datos que se cometió en el inicio de la transacción 
+más los realizados por la propia transacción a través de 
+inserciones, actualizaciones y eliminaciones se puede acceder 
+por una consulta*/
+
+--5.
+ALTER SESSION SET ISOLATION_LEVEL = READ COMMITTED;
+
+--6.
+SELECT SUM(SALDO) FROM CUENTAS;
+--SUM(saldo) = 2000.
+
+--7.
+UPDATE cuentas SET saldo = saldo + 100;
+COMMIT;
+
+--8.
+--SUM(saldo) = 2200.
+/*Explicar el nivel de aislamiento read commited:
+http://www.dba-oracle.com/t_oracle_isolation_level.htm*/

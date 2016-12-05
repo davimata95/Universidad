@@ -1,0 +1,16 @@
+--INSERT INTO pedidos(código, fecha, importe, cliente, notas)
+  --VALUES ('1', '1', 0, 'Pepe', 'Ninguna');
+  
+--INSERT INTO contiene(pedido, plato, precio, unidades)
+  --VALUES('1', 'Paella', 1, 4);
+  
+--INSERT INTO contiene(pedido, plato, precio, unidades)
+--VALUES('1', 'Pasta', 1, 6);
+
+--UPDATE contiene
+--SET precio = 2
+--WHERE pedido = '1';
+--SET SERVEROUTPUT ON SIZE 100000;
+
+--DELETE FROM contiene
+--WHERE plato = 'Paella';

@@ -1,0 +1,26 @@
+--1.
+SET AUTOCOMMIT OFF
+
+--2.
+UPDATE cuentas
+SET saldo = saldo + 100
+WHERE numero = 123;
+
+--3.
+UPDATE cuentas
+SET saldo = saldo + 200
+WHERE numero = 123;
+--No se puede, T2 se queda bloqueado.
+
+--4.
+COMMIT;
+--Al confirmar los datos, T2 deja de estar bloqueado y se hace el cambio.
+
+--5.
+--Su saldo es 600.
+
+--6.
+COMMIT;
+
+--7.
+--Su saldo es 800.

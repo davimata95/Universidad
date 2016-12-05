@@ -1,0 +1,25 @@
+--1.
+UPDATE cuentas
+SET saldo = saldo + 100
+WHERE numero = 123;
+
+--2.
+UPDATE cuentas
+SET saldo = saldo + 200
+WHERE numero = 456;
+
+--3.
+UPDATE cuentas
+SET saldo = saldo + 300
+WHERE numero = 456;
+
+--4.
+UPDATE cuentas
+SET saldo = saldo + 400
+WHERE numero = 123;
+/*
+Lo que ocurre es que para que no se queden bloqueado ambos terminales,
+Oracle se carga la petición del primer terminal, indicandonoslo mediante el siguiente error:
+ERROR en línea 1:
+ORA-00060: detectado interbloqueo mientras se esperaba un recurso
+*/

@@ -1,0 +1,25 @@
+	void print() {
+
+		Nodo *aux;
+		Nodo *ult = NULL;
+		aux = _prim;
+
+		int elems = 0;
+		std::cout << "Recorrido hacia delante: " << std::endl;
+		while (aux != NULL) {
+			std::cout << aux->_elem << " ";
+			ult = aux;
+			aux = aux->_sig;
+		}
+
+		std::cout << std::endl;
+
+		std::cout << "Recorrido hacia atrás: " << std::endl;
+		aux = ult;
+		while (aux != NULL) {
+			std::cout << aux->_elem << " ";
+			aux = aux->_ant;
+		}
+		std::cout << std::endl;
+		std::cout << " Numero de elementos: " << elems << std::endl;
+	}

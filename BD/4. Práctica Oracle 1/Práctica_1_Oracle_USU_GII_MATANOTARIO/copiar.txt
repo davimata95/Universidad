@@ -1,0 +1,3 @@
+exp USERid=USU_GII_MATANOTARIO/dr1234567890@BDc owner=(USU_GII_MATANOTARIO) file=copiaseguridad
+
+imp USERid=USU_GII_MATANOTARIO/dr1234567890@BDc touser=(USU_GII_MATANOTARIO) file=copiaseguridad

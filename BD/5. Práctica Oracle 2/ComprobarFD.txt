@@ -1,0 +1,18 @@
+SET SERVEROUTPUT ON SIZE 100000;
+
+CREATE OR REPLACE PROCEDURE ComprobarFD IS
+
+--DECLARE
+  CURSOR c_CodigosPostalesI IS
+    SELECT CP1."Código postal", CP1.Población, CP1.Provincia
+      FROM "Códigos postales I" CP1, "Códigos postales I" CP2
+        WHERE CP1.Población = CP2.Población AND CP1.Provincia <> CP2.Provincia;
+  
+
+BEGIN
+  FOR c_CP IN c_CodigosPostalesI LOOP
+    DBMS_OUTPUT.PUT_LINE('Violación de dependencia funcional en la tabla Códigos postales I.');
+    DBMS_OUTPUT.PUT_LINE(c_CP.Población || ', ' || c_CP.Población || ', ' || c_CP.Provincia);
+  END LOOP;
+  
+END;

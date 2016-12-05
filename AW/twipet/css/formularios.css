@@ -1,0 +1,167 @@
+#contenido{
+
+	padding:20px 10px 20px 10px;
+	background:#F0F8FF;
+	float:left;
+	border: 2px solid #22C5B1;	
+	margin: 50px 50px 50px 30%;
+	border-radius:2em;
+}
+
+#tablaConfirmacion{
+	padding:0px;
+}
+
+#botonesConfirmacion{
+	margin-top:40px;
+}
+
+.imgRedondaPerfil {
+   
+   width:200px;
+	height:200px;
+    border-radius:160px;
+}
+
+.form{
+	margin-top:10px;
+	float:right;
+}
+
+#contenidoMostrar{
+
+	padding:40px 40px 40px 40px;
+	background:#F0F8FF;
+	float:left;
+	border: 2px solid #22C5B1;	
+	margin: 50px 50px 50px 150px;
+	border-radius:2em;
+	max-width:500px;
+	clear:both;
+}
+
+#confirmar{
+	padding:40px 40px 40px 40px;
+	background:#F0F8FF;
+	float:left;
+	border: 2px solid #22C5B1;	
+	margin: 100px 50px 50px 50px;
+	border-radius:2em;
+}
+
+#contenedor_carrito{
+
+	padding:20px 10px 20px 10px;
+	background:#F0F8FF;
+	width:600px;
+	float:left;
+	border: 2px solid #22C5B1;	
+	margin: 50px 50px 50px 350px;;
+	border-radius:2em;
+}
+
+input[type=submit] {
+   /*Quita el subrayado de los enlaces*/
+	text-decoration:none;
+	
+	font-size:20px;
+	color:#FFFFFF;
+	background:#22C5B1;
+	padding:15px;
+	margin:10px;
+	
+	/*Botones redondeados*/
+	border-radius: 2em;
+	
+	font-family: kristen ITC;
+}
+
+input[type=reset] {
+   /*Quita el subrayado de los enlaces*/
+	text-decoration:none;
+	
+	font-size:15px;
+	color:#FFFFFF;
+	background:#22C5B1;
+	padding:15px;
+	margin:10px;
+	
+	/*Botones redondeados*/
+	border-radius: 2em;
+	
+	font-family: kristen ITC;
+}
+
+table{
+	padding: 20px 0px 20px 50px;
+}
+
+#noMascota{
+	clear:both;
+}
+
+.tabla th {
+	padding: 5px;
+	font-size: 16px;
+	background:#22C5B1;
+	background-image: url(fondo_th.png);
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #558FA6;
+	border-bottom-color: #558FA6;
+	font-family: “Trebuchet MS”, Arial;
+	text-transform: uppercase;
+}
+
+#carro { 
+	width: 200px;
+	float: left;
+	margin: 20px;
+	background-color: white;
+	border: 1px solid #22C5B1;
+	border-top-left-radius:2em;
+	border-top-right-radius:2em;
+	border-bottom-left-radius:2em;
+	border-bottom-right-radius:2em;
+}
+
+#carro li {
+	margin:5px;
+	font-size:15px;
+	text-align:left;
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+a :hover{
+	color:#22C5B1;
+}
+
+#micarro_titulo{
+	width: 200px;
+	border-top-left-radius:2em;
+	border-top-right-radius:2em;
+	clear:both;
+	text-align:center;
+	background:#22C5B1;
+	color:#F0F8FF;
+	font-family: kristen ITC;
+}
+
+#total_precio{
+	width: 200px;
+	border-bottom-left-radius:2em;
+	border-bottom-right-radius:2em;
+	clear:both;
+	text-align:center;
+	background:#22C5B1;
+	color:#F0F8FF;
+	font-family: kristen ITC;
+}

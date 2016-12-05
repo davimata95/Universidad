@@ -1,0 +1,417 @@
+escanyos('Alava', 'PP', 1).
+escanyos('Alava', 'PSOE', 1).
+escanyos('Alava', 'PODEMOS', 1).
+escanyos('Alava', 'Cs', 0).
+escanyos('Alava', 'EAJ-PNV', 1).
+escanyos('Alava', 'IU-UPeC', 0).
+escanyos('Alava', 'EH Bildu', 0).
+escanyos('Albacete', 'PP', 2).
+escanyos('Albacete', 'PSOE', 1).
+escanyos('Albacete', 'PODEMOS', 0).
+escanyos('Albacete', 'Cs', 1).
+escanyos('Albacete', 'IU-UPeC', 0).
+escanyos('Alicante', 'PP', 4).
+escanyos('Alicante', 'PSOE', 3).
+escanyos('Alicante', 'Cs', 2).
+escanyos('Alicante', 'PODEMOS-COMPROMIS', 3).
+escanyos('Alicante', 'IU-UPeC', 0).
+escanyos('Almeria', 'PP', 2).
+escanyos('Almeria', 'PSOE', 2).
+escanyos('Almeria', 'PODEMOS', 1).
+escanyos('Almeria', 'Cs', 1).
+escanyos('Almeria', 'IU-UPeC', 0).
+escanyos('Asturias', 'PP', 3).
+escanyos('Asturias', 'PSOE', 2).
+escanyos('Asturias', 'PODEMOS', 2).
+escanyos('Asturias', 'Cs', 1).
+escanyos('Asturias', 'IU-UPeC', 0).
+escanyos('Avila', 'PP', 2).
+escanyos('Avila', 'PSOE', 1).
+escanyos('Avila', 'PODEMOS', 0).
+escanyos('Avila', 'Cs', 0).
+escanyos('Avila', 'IU-UPeC', 0).
+escanyos('Badajoz', 'PP', 2).
+escanyos('Badajoz', 'PSOE', 3).
+escanyos('Badajoz', 'PODEMOS', 1).
+escanyos('Badajoz', 'Cs', 0).
+escanyos('Badajoz', 'IU-UPeC', 0).
+escanyos('Islas Baleares', 'PP', 3).
+escanyos('Islas Baleares', 'PSOE', 2).
+escanyos('Islas Baleares', 'PODEMOS', 2).
+escanyos('Islas Baleares', 'Cs', 1).
+escanyos('Islas Baleares', 'IU-UPeC', 0).
+escanyos('Barcelona', 'PP', 4).
+escanyos('Barcelona', 'PSOE', 5).
+escanyos('Barcelona', 'Cs', 4).
+escanyos('Barcelona', 'EN COMU', 9).
+escanyos('Barcelona', 'ERC-CATSI', 5).
+escanyos('Barcelona', 'DL', 4).
+escanyos('Burgos', 'PP', 2).
+escanyos('Burgos', 'PSOE', 1).
+escanyos('Burgos', 'PODEMOS', 1).
+escanyos('Burgos', 'Cs', 0).
+escanyos('Burgos', 'IU-UPeC', 0).
+escanyos('Caceres', 'PP', 2).
+escanyos('Caceres', 'PSOE', 2).
+escanyos('Caceres', 'PODEMOS', 0).
+escanyos('Caceres', 'Cs', 0).
+escanyos('Caceres', 'IU-UPeC', 0).
+escanyos('Cadiz', 'PP', 3).
+escanyos('Cadiz', 'PSOE', 3).
+escanyos('Cadiz', 'PODEMOS', 2).
+escanyos('Cadiz', 'Cs', 1).
+escanyos('Cadiz', 'IU-UPeC', 0).
+escanyos('Cantabria', 'PP', 2).
+escanyos('Cantabria', 'PSOE', 1).
+escanyos('Cantabria', 'PODEMOS', 1).
+escanyos('Cantabria', 'Cs', 1).
+escanyos('Cantabria', 'IU-UPeC', 0).
+escanyos('Castellon', 'PP', 2).
+escanyos('Castellon', 'PSOE', 1).
+escanyos('Castellon', 'Cs', 1).
+escanyos('Castellon', 'PODEMOS-COMPROMIS', 1).
+escanyos('Castellon', 'IU-UPeC', 0).
+escanyos('Ceuta', 'PP', 1).
+escanyos('Ceuta', 'PSOE', 0).
+escanyos('Ceuta', 'PODEMOS', 0).
+escanyos('Ceuta', 'Cs', 0).
+escanyos('Ceuta', 'IU-UPeC', 0).
+escanyos('Ciudad Real', 'PP', 3).
+escanyos('Ciudad Real', 'PSOE', 2).
+escanyos('Ciudad Real', 'PODEMOS', 0).
+escanyos('Ciudad Real', 'Cs', 0).
+escanyos('Ciudad Real', 'IU-UPeC', 0).
+escanyos('Cordoba', 'PP', 2).
+escanyos('Cordoba', 'PSOE', 2).
+escanyos('Cordoba', 'PODEMOS', 1).
+escanyos('Cordoba', 'Cs', 1).
+escanyos('Cordoba', 'IU-UPeC', 0).
+escanyos('La Coruna', 'PP', 3).
+escanyos('La Coruna', 'PSOE', 2).
+escanyos('La Coruna', 'Cs', 1).
+escanyos('La Coruna', 'PODEMOS-En Marea-ANOVA-EU', 2).
+escanyos('Cuenca', 'PP', 2).
+escanyos('Cuenca', 'PSOE', 1).
+escanyos('Cuenca', 'PODEMOS', 0).
+escanyos('Cuenca', 'Cs', 0).
+escanyos('Cuenca', 'IU-UPeC', 0).
+escanyos('Gerona', 'PP', 0).
+escanyos('Gerona', 'PSOE', 1).
+escanyos('Gerona', 'Cs', 0).
+escanyos('Gerona', 'EN COMU', 1).
+escanyos('Gerona', 'ERC-CATSI', 2).
+escanyos('Gerona', 'DL', 2).
+escanyos('Granada', 'PP', 3).
+escanyos('Granada', 'PSOE', 2).
+escanyos('Granada', 'PODEMOS', 1).
+escanyos('Granada', 'Cs', 1).
+escanyos('Granada', 'IU-UPeC', 0).
+escanyos('Guadalajara', 'PP', 1).
+escanyos('Guadalajara', 'PSOE', 1).
+escanyos('Guadalajara', 'PODEMOS', 0).
+escanyos('Guadalajara', 'Cs', 1).
+escanyos('Guadalajara', 'IU-UPeC', 0).
+escanyos('Guipuzcoa', 'PP', 0).
+escanyos('Guipuzcoa', 'PSOE', 1).
+escanyos('Guipuzcoa', 'PODEMOS', 2).
+escanyos('Guipuzcoa', 'Cs', 0).
+escanyos('Guipuzcoa', 'EAJ-PNV', 2).
+escanyos('Guipuzcoa', 'IU-UPeC', 0).
+escanyos('Guipuzcoa', 'EH Bildu', 1).
+escanyos('Huelva', 'PP', 2).
+escanyos('Huelva', 'PSOE', 2).
+escanyos('Huelva', 'PODEMOS', 1).
+escanyos('Huelva', 'Cs', 0).
+escanyos('Huelva', 'IU-UPeC', 0).
+escanyos('Huesca', 'PP', 1).
+escanyos('Huesca', 'PSOE', 1).
+escanyos('Huesca', 'PODEMOS', 1).
+escanyos('Huesca', 'Cs', 0).
+escanyos('Huesca', 'IU-UPeC', 0).
+escanyos('Jaen', 'PP', 2).
+escanyos('Jaen', 'PSOE', 3).
+escanyos('Jaen', 'PODEMOS', 0).
+escanyos('Jaen', 'Cs', 0).
+escanyos('Jaen', 'IU-UPeC', 0).
+escanyos('Leon', 'PP', 2).
+escanyos('Leon', 'PSOE', 1).
+escanyos('Leon', 'PODEMOS', 1).
+escanyos('Leon', 'Cs', 1).
+escanyos('Leon', 'IU-UPeC', 0).
+escanyos('Lerida', 'PP', 0).
+escanyos('Lerida', 'PSOE', 1).
+escanyos('Lerida', 'Cs', 0).
+escanyos('Lerida', 'EN COMU', 1).
+escanyos('Lerida', 'ERC-CATSI', 1).
+escanyos('Lerida', 'DL', 1).
+escanyos('Lugo', 'PP', 2).
+escanyos('Lugo', 'PSOE', 1).
+escanyos('Lugo', 'Cs', 0).
+escanyos('Lugo', 'PODEMOS-En Marea-ANOVA-EU', 1).
+escanyos('Madrid', 'PP', 13).
+escanyos('Madrid', 'PSOE', 6).
+escanyos('Madrid', 'PODEMOS', 8).
+escanyos('Madrid', 'Cs', 7).
+escanyos('Madrid', 'IU-UPeC', 2).
+escanyos('Malaga', 'PP', 4).
+escanyos('Malaga', 'PSOE', 3).
+escanyos('Malaga', 'PODEMOS', 2).
+escanyos('Malaga', 'Cs', 2).
+escanyos('Malaga', 'IU-UPeC', 0).
+escanyos('Melilla', 'PP', 1).
+escanyos('Melilla', 'PSOE', 0).
+escanyos('Melilla', 'PODEMOS', 0).
+escanyos('Melilla', 'Cs', 0).
+escanyos('Melilla', 'IU-UPeC', 0).
+escanyos('Murcia', 'PP', 5).
+escanyos('Murcia', 'PSOE', 2).
+escanyos('Murcia', 'PODEMOS', 1).
+escanyos('Murcia', 'Cs', 2).
+escanyos('Murcia', 'IU-UPeC', 0).
+escanyos('Navarra', 'PP', 2).
+escanyos('Navarra', 'PSOE', 1).
+escanyos('Navarra', 'PODEMOS', 2).
+escanyos('Navarra', 'Cs', 0).
+escanyos('Navarra', 'IU-UPeC', 0).
+escanyos('Navarra', 'EH Bildu', 0).
+escanyos('Orense', 'PP', 2).
+escanyos('Orense', 'PSOE', 1).
+escanyos('Orense', 'Cs', 0).
+escanyos('Orense', 'PODEMOS-En Marea-ANOVA-EU', 1).
+escanyos('Palencia', 'PP', 2).
+escanyos('Palencia', 'PSOE', 1).
+escanyos('Palencia', 'PODEMOS', 0).
+escanyos('Palencia', 'Cs', 0).
+escanyos('Palencia', 'IU-UPeC', 0).
+escanyos('Las Palmas', 'PP', 3).
+escanyos('Las Palmas', 'PSOE', 2).
+escanyos('Las Palmas', 'PODEMOS', 2).
+escanyos('Las Palmas', 'Cs', 1).
+escanyos('Las Palmas', 'IU-UPeC', 0).
+escanyos('Las Palmas', 'CCa-PNC', 0).
+escanyos('Pontevedra', 'PP', 3).
+escanyos('Pontevedra', 'PSOE', 2).
+escanyos('Pontevedra', 'Cs', 0).
+escanyos('Pontevedra', 'PODEMOS-En Marea-ANOVA-EU', 2).
+escanyos('La Rioja', 'PP', 2).
+escanyos('La Rioja', 'PSOE', 1).
+escanyos('La Rioja', 'PODEMOS', 1).
+escanyos('La Rioja', 'Cs', 0).
+escanyos('La Rioja', 'IU-UPeC', 0).
+escanyos('Salamanca', 'PP', 2).
+escanyos('Salamanca', 'PSOE', 1).
+escanyos('Salamanca', 'PODEMOS', 0).
+escanyos('Salamanca', 'Cs', 1).
+escanyos('Salamanca', 'IU-UPeC', 0).
+escanyos('Santa Cruz de Tenerife', 'PP', 2).
+escanyos('Santa Cruz de Tenerife', 'PSOE', 2).
+escanyos('Santa Cruz de Tenerife', 'PODEMOS', 1).
+escanyos('Santa Cruz de Tenerife', 'Cs', 1).
+escanyos('Santa Cruz de Tenerife', 'IU-UPeC', 0).
+escanyos('Santa Cruz de Tenerife', 'CCa-PNC', 1).
+escanyos('Segovia', 'PP', 2).
+escanyos('Segovia', 'PSOE', 1).
+escanyos('Segovia', 'PODEMOS', 0).
+escanyos('Segovia', 'Cs', 0).
+escanyos('Segovia', 'IU-UPeC', 0).
+escanyos('Sevilla', 'PP', 3).
+escanyos('Sevilla', 'PSOE', 5).
+escanyos('Sevilla', 'PODEMOS', 2).
+escanyos('Sevilla', 'Cs', 2).
+escanyos('Sevilla', 'IU-UPeC', 0).
+escanyos('Soria', 'PP', 1).
+escanyos('Soria', 'PSOE', 1).
+escanyos('Soria', 'PODEMOS', 0).
+escanyos('Soria', 'Cs', 0).
+escanyos('Soria', 'IU-UPeC', 0).
+escanyos('Tarragona', 'PP', 1).
+escanyos('Tarragona', 'PSOE', 1).
+escanyos('Tarragona', 'Cs', 1).
+escanyos('Tarragona', 'EN COMU', 1).
+escanyos('Tarragona', 'ERC-CATSI', 1).
+escanyos('Tarragona', 'DL', 1).
+escanyos('Teruel', 'PP', 2).
+escanyos('Teruel', 'PSOE', 1).
+escanyos('Teruel', 'PODEMOS', 0).
+escanyos('Teruel', 'Cs', 0).
+escanyos('Teruel', 'IU-UPeC', 0).
+escanyos('Toledo', 'PP', 2).
+escanyos('Toledo', 'PSOE', 2).
+escanyos('Toledo', 'PODEMOS', 1).
+escanyos('Toledo', 'Cs', 1).
+escanyos('Toledo', 'IU-UPeC', 0).
+escanyos('Valencia', 'PP', 5).
+escanyos('Valencia', 'PSOE', 3).
+escanyos('Valencia', 'Cs', 2).
+escanyos('Valencia', 'PODEMOS-COMPROMIS', 5).
+escanyos('Valencia', 'IU-UPeC', 0).
+escanyos('Valladolid', 'PP', 2).
+escanyos('Valladolid', 'PSOE', 1).
+escanyos('Valladolid', 'PODEMOS', 1).
+escanyos('Valladolid', 'Cs', 1).
+escanyos('Valladolid', 'IU-UPeC', 0).
+escanyos('Vizcaya', 'PP', 1).
+escanyos('Vizcaya', 'PSOE', 1).
+escanyos('Vizcaya', 'PODEMOS', 2).
+escanyos('Vizcaya', 'Cs', 0).
+escanyos('Vizcaya', 'EAJ-PNV', 3).
+escanyos('Vizcaya', 'IU-UPeC', 0).
+escanyos('Vizcaya', 'EH Bildu', 1).
+escanyos('Zamora', 'PP', 2).
+escanyos('Zamora', 'PSOE', 1).
+escanyos('Zamora', 'PODEMOS', 0).
+escanyos('Zamora', 'Cs', 0).
+escanyos('Zamora', 'IU-UPeC', 0).
+escanyos('Zaragoza', 'PP', 3).
+escanyos('Zaragoza', 'PSOE', 2).
+escanyos('Zaragoza', 'PODEMOS', 1).
+escanyos('Zaragoza', 'Cs', 1).
+escanyos('Zaragoza', 'IU-UPeC', 0).
+
+pertenece('Alava', 'Pais Vasco').
+pertenece('Albacete', 'Castilla-La Mancha').
+pertenece('Alicante', 'Comunidad Valenciana').
+pertenece('Almeria', 'Andalucia').
+pertenece('Asturias', 'Principado de Asturias').
+pertenece('Avila', 'Castilla y Leon').
+pertenece('Badajoz', 'Extremadura').
+pertenece('Barcelona', 'Catalunya').
+pertenece('Burgos', 'Castilla y Leon').
+pertenece('Cordoba', 'Andalucia').
+pertenece('Caceres', 'Extremadura').
+pertenece('Cadiz', 'Andalucia').
+pertenece('Cantabria', 'Cantabria').
+pertenece('Castellon', 'Comunidad Valenciana').
+pertenece('Ciudad Real', 'Castilla-La Mancha').
+pertenece('Cuenca', 'Castilla-La Mancha').
+pertenece('Gerona', 'Catalunya').
+pertenece('Granada', 'Andalucia').
+pertenece('Guadalajara', 'Castilla-La Mancha').
+pertenece('Guipuzcoa', 'Pais Vasco').
+pertenece('Huelva', 'Andalucia').
+pertenece('Huesca', 'Aragon').
+pertenece('Islas Baleares', 'Islas Baleares').
+pertenece('Jaen', 'Andalucia').
+pertenece('La Coruna', 'Galicia').
+pertenece('La Rioja', 'La Rioja').
+pertenece('Las Palmas', 'Canarias').
+pertenece('Leon', 'Castilla y Leon').
+pertenece('Lerida', 'Catalunya').
+pertenece('Lugo', 'Galicia').
+pertenece('Malaga', 'Andalucia').
+pertenece('Madrid', 'Comunidad de Madrid').
+pertenece('Murcia', 'Region de Murcia').
+pertenece('Navarra', 'Comunidad Foral de Navarra').
+pertenece('Orense', 'Galicia').
+pertenece('Palencia', 'Castilla y Leon').
+pertenece('Pontevedra', 'Galicia').
+pertenece('Salamanca', 'Castilla y Leon').
+pertenece('Santa Cruz de Tenerife', 'Canarias').
+pertenece('Segovia', 'Castilla y Leon').
+pertenece('Sevilla', 'Andalucia').
+pertenece('Soria', 'Castilla y Leon').
+pertenece('Tarragona', 'Catalunya').
+pertenece('Teruel', 'Aragon').
+pertenece('Toledo', 'Castilla-La Mancha').
+pertenece('Valencia', 'Comunidad Valenciana').
+pertenece('Valladolid', 'Castilla y Leon').
+pertenece('Vizcaya', 'Pais Vasco').
+pertenece('Zamora', 'Castilla y Leon').
+pertenece('Zaragoza', 'Aragon').
+
+partido('CCa-PNC', 0).
+partido('Cs', 1).
+partido('DL', 2).
+partido('EAJ-PNV', 3).
+partido('EH Bildu', 4).
+partido('EN COMU', 5).
+partido('ERC-CATSI', 6).
+partido('IU-UPeC', 7).
+partido('PODEMOS', 8).
+partido('PODEMOS-COMPROMIS', 9).
+partido('PODEMOS-En Marea-ANOVA-EU', 10).
+partido('PP', 11).
+partido('PSOE', 12).
+
+desc_pregunta(1, 'Partidos que han obtenido mas de seis escanyos en alguna circunscripcion').
+desc_pregunta(2, 'Circunscripciones en las que PODEMOS tiene mas de dos escanyos /sin confluencias/').
+desc_pregunta(3, 'Circunscripciones en las que Cs tiene mas de dos escanyos').
+desc_pregunta(4, 'Circunscripciones que no pertenecen a ninguna comunidad').
+desc_pregunta(5, 'Comunidades en las que no se ha presentado IU-UPeC').
+desc_pregunta(6, 'Numero de circunscripciones por cada comunidad autonoma').
+desc_pregunta(7, 'Numero de escanyos por circunscripcion').
+desc_pregunta(8, 'Numero de escanyos por comunidad autonoma').
+desc_pregunta(9, 'Escanyos de cada partido en Galicia').
+desc_pregunta(10, 'Comunidades autonomas en las que el partido P no tiene representacion').
+
+suma_dnis(Total) :- sum(dni(N), N, Total).
+
+pregunta(ninguna, '¿Has recargado la BD?') :- suma_dnis(0).
+pregunta(N, Desc) :- desc_pregunta(N, Desc), suma_dnis(Total), Total \= 0, Total rem 3 = N1, N is N1 + 1.
+pregunta(N, Desc) :- desc_pregunta(N, Desc), suma_dnis(Total), Total \= 0, Total rem 2 = N1, N is N1 + 4.
+pregunta(N, Desc) :- desc_pregunta(N, Desc), suma_dnis(Total), Total \= 0, Total rem 5 = N1, N is N1 + 6.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%        v v v            MODIFICAR A PARTIR DE AQUI               v v v         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Introducir los DNI (o NIE, en su caso) de los componentes del grupo. Si solo hay uno,
+% devolver es 
+
+dni(47296947). % Nombre: Rodrigo Notario Perez
+dni(51492222). % Nombre: David Angel Mata Lorenzo (Si solo hay un componente en el grupo, borra esta linea)
+
+% IMPORTANTE: No olvides guardar el fichero y recargar la BD mediante /consult, o 
+%             utilizando el boton correspondiente de ACIDE
+%
+% Ejecutar el siguiente objetivo para averiguar las consultas que has de realizar:
+%
+% DES> pregunta(N, D)
+
+% En las siguientes consultas puedes definir las relaciones auxiliares que
+% sean necesarias. Borra los comentarios de las consultas que no tengas que realizar.
+
+% 1. Partidos que han obtenido mas de seis escanyos en alguna circunscripcion
+partidos_fuertes(P) :- escanyos(_, P, N), N > 6.
+
+% 2. Circunscripciones en las que 'PODEMOS' tiene mas de dos escanyos. (sin confluencias).
+% cir_podemos(C) :- ...
+
+% 3. Circunscripciones en las que 'Cs' tiene mas de dos escanyos
+% cir_ciudadanos(C) :- ...
+
+% 4. Circunscripciones que no pertenecen a ninguna comunidad
+% circunscripcion_atomica(X) :- ...
+
+% 5. Comunidades en las que no se ha presentado 'IU-UPeC'.
+% Provincias en las que no se ha presentado IU-UPeC
+present(C) :- pertenece(C, _), escanyos(C, _, _), not escanyos(C, 'IU-UPeC', _).
+% Numero de provincias en las que no se ha presentado IU-UPeC por comunidad autonoma
+presentado_com(N, CA) :- group_by((present(C), pertenece(C, CA)), [CA], N = count(C)).
+% Numero de provincias que tiene cada comunidad autonoma
+prov_com(CA, V) :- group_by(pertenece(C, CA), [CA], V = count(C)).
+% Comparamos si el numero de provincias que tiene cada comunidad autonoma es igual al numero de provincias en las que no se ha presentado
+ca_no_iu_upec(CA) :- presentado_com(N, CA), prov_com(CA, N).
+
+% 6. Numero de circunscripciones por cada comunidad autonoma
+% circunscripciones_ca(CA, N) :- ...
+
+% 7. Numero de escanyos por circunscripcion
+% escanyo_cir(C, N) :- ...
+
+% 8. Numero de escanyos por comunidad autonoma
+% escanyo_ca(CA, N) :- ...
+
+% 9. Escanyos de cada partido en Galicia
+% escanyo_partido(P, N) :- ...
+
+% 10. Comunidades autonomas en las que el partido P no tiene representacion
+no_representacion(CA, P) :-  group_by((escanyos(C, P, E), pertenece(C, CA)), [CA, P], sum(E) = 0).
+
+
+% Parte opcional:
+
+% escanyos_total(P, NE) :- ...
+
+% Definir relacion coalicion:
+

@@ -1,0 +1,214 @@
+#bienvenida{
+
+	clear:both;
+	background:#F8F8F8;
+	margin:0px;
+	text-align:center;
+	padding: 10px;
+}
+
+#gridAdopta, #gridTienda{
+	
+	background-color: #F1F1F1;
+	float:left;
+	border: 1px solid #22C5B1;	
+	margin-bottom:50px;
+	border-radius:1em;
+	text-align:center;
+}
+
+#gridAdopta{
+
+	margin-left:10%;
+	max-width:80%;
+	padding:0 20px 10px 20px;
+}
+
+#gridTienda{
+
+	max-width:60%;	
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+.col {
+	
+	background:#FFFFFF;
+	text-align:center;
+	padding: 20px;
+	display: inline-block;
+	margin:25px 8px 15px 8px;
+	border: 5px double #22C5B1;
+	border-radius: 10px 10px 10px 10px;
+	line-height: 1.5em;
+}
+
+
+/* CSS tienda */
+
+#buscar {
+	
+	margin:30px auto 10px 5%;
+	font-size:18px;
+	color:#22C5B1;
+	height:30px;
+	width:300px;
+	border: 1px solid #22C5B1;
+}
+
+#hayProductos{
+	margin-left:5%;
+}
+
+
+#topVentas { 
+	
+	max-width:15%;
+	float: left;
+	padding:0px 15px 15px 15px;
+	background-color: #F1F1F1;
+	border: 1px solid #22C5B1;
+	border-radius: 1em;
+	margin-right:2%;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+.si:hover{
+	color:#22C5B1;
+}
+.no:hover{
+	color:red;
+}
+
+#topVentas li {
+	
+	margin:5px;
+	font-size:20px;
+	font-family:arial;
+	line-height:130%;
+}
+
+p.producto, p.precio {
+	
+	font-weight:bold;
+	font-family: arial;
+	font-size: 20 px;
+}
+
+p.precio {
+	
+	color: #22C5B1;
+}
+
+img.producto {
+	
+	width: 200px;
+	height: 200px;
+}
+
+#si{
+	float:left;
+	margin-top:30px;
+	width:100%;
+}
+
+img.comprar {
+	
+	width: 150px;
+}
+
+.comprar{
+	border:none;
+	background:#FFFFFF;
+	padding:0px;
+}
+
+#noElementos{
+	clear:both;
+	padding:10px;
+	padding-top:20px;
+	text-align:center;
+
+}
+
+/*Carro de la compra */
+#carro { 
+	width: 15%;
+	float: left;
+	
+	margin: auto 20px 50px;
+	background-color: #F1F1F1;
+	border: 1px solid #22C5B1;
+	border-radius:1em;
+}
+
+
+#compra, #elimina{
+	text-align:center;
+	width: 98%;
+
+	border: 2px solid #22C5B1;	
+	border-radius:0.5em;
+}
+
+
+#compra{
+	float:left;
+}
+#elimina{
+	border-color:red;
+}
+
+#carro li {
+	margin:5px;
+	font-size:15px;
+	text-align:left;
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+a :hover{
+	color:#22C5B1;
+}
+
+#eliminar{
+	float:right;
+	margin-top:5%;
+}
+
+#micarro_titulo{
+	width: 100%;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	clear:both;
+	text-align:center;
+	background:#22C5B1;
+	color:#F0F8FF;
+	font-family: kristen ITC;
+}
+
+#total_precio{
+	width: 100%;
+	border-bottom-left-radius:1em;
+	border-bottom-right-radius:1em;
+	clear:both;
+	text-align:center;
+	background:#22C5B1;
+	color:#F0F8FF;
+	font-family: kristen ITC;
+}
+
+#perro{
+	width:200px;
+	height:170px;
+    border-radius:1em;
+}
+
+

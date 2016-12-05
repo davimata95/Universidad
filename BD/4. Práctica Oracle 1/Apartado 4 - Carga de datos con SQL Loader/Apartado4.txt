@@ -1,0 +1,12 @@
+/*¿Qué errores de importación se han producido y qué restricciones de
+ integridad se han violado?
+
+Registro 7: Rechazado - Error en tabla "Códigos postales".
+ORA-00001: restricción única (USU_GII_MATANOTARIO.CÓDIGOS_POSTALES_PK) violada
+
+Registro 5: Rechazado - Error en tabla DOMICILIOS.
+ORA-02291: restricción de integridad (USU_GII_MATANOTARIO.SYS_C0038107) violada - clave principal no encontrada
+
+Registro 4: Rechazado - Error en tabla TELÉFONOS.
+ORA-02291: restricción de integridad (USU_GII_MATANOTARIO.TELÉFONOS_FK) violada - clave principal no encontrada
+*/

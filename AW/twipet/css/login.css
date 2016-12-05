@@ -1,0 +1,43 @@
+#login{
+
+	border: 10px solid #22C5B1;
+	border-radius: 2em;
+	clear:both;
+	float:left;
+	margin: 5% auto 7% 33%;	
+	padding:30px;
+	
+}
+
+#casilla{
+	
+	text-align:center;
+	margin: 20px;
+	margin-left:20px;
+}
+
+#formulario{
+
+	text-align:center;
+	margin:20px;
+	margin-bottom:35px;
+}
+
+h1{
+
+	text-align:center;
+	margin-top:-7px;
+}
+
+#botones{
+	
+	float:left;
+	margin:10px;
+}
+
+#botones li{
+	
+	display:inline;
+	float:left;
+	margin: 15px;
+}
